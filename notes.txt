@@ -1,18 +1,9 @@
-following MVC framework
-writing the outline then writing the code, we wont mess alot
-
+MVC framework
 main->routes->controllers->
-
-project form main file, command to routes, command to controllers, command to models
-
-to know how gin works checkout jwt tutorial
-
-import starts from the PATH defined, your incase it is go/src/
-
-database:
-ctx will return cancel
-
-context package: supports cancellation
-
-Creating a context with a 100-second timeout means that any associated operations or goroutines will be canceled if they don't finish within that time.
-The context will expire after 100 seconds, notifying listening operations through ctx.Done(), ensuring they don't run indefinitely.
+project frmm main file, command to routes, command to controllers, command to models
+gin docs
+jwt docs
+GOPATH check
+compass mongodb
+context-cancellation-child branching
+mongodb aggregations
